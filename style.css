@@ -10,7 +10,7 @@ header {
 #section1 {
     display: flex;
     width: 100%;
-    border: 1px solid red;
+   background-color: aliceblue;
     padding: 2rem;
     gap: 1rem;
 }
@@ -38,6 +38,8 @@ header {
     margin: auto;
     font-size: 1rem;
     cursor: pointer;
+    border: none;
+    outline: none;
 }
 
 #section1 form input {
