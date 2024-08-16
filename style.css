@@ -1,3 +1,12 @@
+header {
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+}
+
 #section1 {
     display: flex;
     width: 100%;
