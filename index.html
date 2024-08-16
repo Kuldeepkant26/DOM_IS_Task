@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    header {
+        width: 100%;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+</style>
+
+<body>
+    <header>
+        <h1>Student Registration & Management System</h1>
+        <p>The Student Registration & Management System allows for efficient student data handling, enabling users to
+            easily register students by entering their details, including name, email, phone number, and ID. The system
+            stores all student information in local storage and provides functionalities to view, edit, and delete
+            records directly from the user interface, ensuring streamlined management of student data.</p>
+    </header>
+    <section id="section1">
+
+        <form id="form">
+            <h3>Fill Student Details</h3>
+            <label for="name"></label>
+            <input id="name" type="text" name="name" placeholder="Student Name">
+            <label for="id"></label>
+            <input type="number" name="id" id="id" placeholder="Student id">
+            <label for="email"></label>
+            <input type="email" id="email" placeholder="Student Email">
+            <label for="phnumber"></label>
+            <input type="number" name="phnumber" id="phnumber" placeholder="Student ph-numnber">
+            <button>Register</button>
+        </form>
+        <div id="container">
+
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
